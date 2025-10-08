@@ -24,3 +24,12 @@ function changeSlide(n) {
 
 updateSlides();
 showSlides();
+
+const contactForm = document.getElementById('Contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for your message!');
+    contactForm.reset();
+  });
+}

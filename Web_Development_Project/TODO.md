@@ -1,0 +1,3 @@
+- [x] Fix the form HTML in contact.html: correct ID, move closing tag, add reset button
+- [x] Add JavaScript in script.js to handle form submission: prevent default, show alert, reset form
+- [x] Test the form functionality (skipped as per user request)
