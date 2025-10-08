@@ -14,7 +14,7 @@ function updateSlides() {
 function showSlides() {
   updateSlides();
   currentIndex = (currentIndex + 1) % slides.length;
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 5000); 
 }
 
 function changeSlide(n) {
