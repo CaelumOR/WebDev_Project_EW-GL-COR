@@ -94,8 +94,8 @@ nav a:hover {
 .slideshow-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
-  height: 600px;
+  max-width: 1000px;
+  height: 350px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 15px;
