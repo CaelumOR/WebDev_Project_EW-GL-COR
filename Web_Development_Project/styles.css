@@ -394,6 +394,11 @@ footer {
   font-size: 0.9rem;
 }
 
+.contact-page .Contact-container {
+  display: flex;
+  justify-content: center;
+}
+
 .SellingAndSourcing-page body {
   font-family: 'Roboto', sans-serif;
   background-color: #000;
@@ -491,4 +496,25 @@ footer {
   background-color: #111;
   margin-top: 40px;
   font-size: 0.9rem;
+}
+
+.SellingAndSourcing-page .Contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
