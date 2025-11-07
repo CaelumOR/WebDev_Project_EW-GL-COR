@@ -3,119 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact - Wheels on Fire</title>
+  <title>Contact - Ferrari Inspired Cars</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #000;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #c00;
-      padding: 20px;
-      text-align: center;
-      font-weight: 700;
-      font-size: 2rem;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      background-color: #111;
-      margin: 0;
-      padding: 10px 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 600px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #222;
-      border-radius: 8px;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    label {
-      margin-bottom: 5px;
-      font-weight: 500;
-    }
-    input, textarea {
-      margin-bottom: 15px;
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-    textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-    button {
-      background-color: #c00;
-      color: #fff;
-      border: none;
-      padding: 12px;
-      font-size: 1rem;
-      font-weight: 700;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    button:hover {
-      background-color: #a00;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #111;
-      margin-top: 40px;
-      font-size: 0.9rem;
-    }
-  </style>
 </head>
-<body>
+  <body class="contact-page">
   <header>Wheels on Fire</header>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="About.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="SellingAndSourcing.html">Sell your car</a></li>
+
     </ul>
   </nav>
   <main>
     <h2>Contact Us</h2>
-    <form action="#" method="post" id="contactForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Your name" required />
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Your email" required />
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Your message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="Contact-container">
+      <form id="Contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
   </main>
   <footer>
-    &copy; 2023 Ferrari Inspired Cars. All rights reserved.
+    &copy; John O'Reiley - Wheels on Fire. All rights reserved.
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
