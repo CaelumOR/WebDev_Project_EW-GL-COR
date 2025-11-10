@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #1c2dab 0%, #b35f00 100%);
+  background: linear-gradient(135deg, #081fd3 0%, #010733 100%);
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 4px 20px rgba(225, 7, 69, 0.9);
@@ -31,7 +31,7 @@ header h1 {
 }
 
 nav {
-  background: rgba(27, 172, 198, 0.9);
+  background: linear-gradient(#010a4a);
   padding: 15px 0;
   position: sticky;
   top: 0;
