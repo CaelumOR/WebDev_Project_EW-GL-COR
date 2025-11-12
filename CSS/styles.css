@@ -633,7 +633,18 @@ footer {
   form {
     padding: 20px;
   }
+
+  .slideshow-container {
+    height: 300px;
+  }
+
+  .contact-page main,
+  .SellingAndSourcing-page main {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
+
 
 
 
