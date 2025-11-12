@@ -594,3 +594,14 @@ footer {
   color: #333333;
   line-height: 1.4;
 }
+
+#GrandOpening p {
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.SpecialEvents h2{
+    text-align: center;
+  margin-bottom: 20px;
+}
