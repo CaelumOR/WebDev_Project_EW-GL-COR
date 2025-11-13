@@ -84,7 +84,7 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-#about, #contact {
+#about, #contact, #Brands {
   min-height: 100vh;
   padding: 80px 20px;
   display: flex;
@@ -216,7 +216,7 @@ nav a:hover {
 }
 
 
-#about h2, #contact h2 {
+#about h2, #contact h2, #Brands h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
   color: #D40000;
@@ -342,43 +342,11 @@ footer {
   }
 }
 
-.contact-page body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
 
-.contact-page header {
-  background-color: #c00;
-  padding: 20px;
-  text-align: left;
-  font-weight: 700;
-  font-size: 2rem;
-}
 
-.contact-page nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 10px 0;
-}
 
-.contact-page nav ul li {
-  margin: 0 15px;
-}
 
-.contact-page nav ul li a {
-  color: #fff;
-  text-decoration: underline;
-  font-weight: 500;
-}
 
-.contact-page nav ul li a:hover {
-  text-decoration: underline;
-}
 
 .contact-page main {
   max-width: 600px;
@@ -445,43 +413,9 @@ footer {
   justify-content: center;
 }
 
-.SellingAndSourcing-page body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
 
-.SellingAndSourcing-page header {
-  background-color: #c00;
-  padding: 20px;
-  text-align: left;
-  font-weight: 700;
-  font-size: 2rem;
-}
 
-.SellingAndSourcing-page nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 10px 0;
-}
 
-.SellingAndSourcing-page nav ul li {
-  margin: 0 15px;
-}
-
-.SellingAndSourcing-page nav ul li a {
-  color: #fff;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-.SellingAndSourcing-page nav ul li a:hover {
-  text-decoration: underline;
-}
 
 .SellingAndSourcing-page main {
   max-width: 600px;
@@ -602,24 +536,4 @@ footer {
   font-size: 14px;
   color: #333333;
   line-height: 1.4;
-}
-
-.Events-Images {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-#GrandOpening p {
-  font-size: 1.2rem;
-  max-width: 800px;
-  margin-bottom: 20px;
-  color: #000000;
-}
-
-#mystery p {
-  font-size: 1.2rem;
-  max-width: 800px;
-  margin-bottom: 20px;
-  color: #000000;
 }
