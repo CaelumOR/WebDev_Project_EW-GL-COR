@@ -603,3 +603,9 @@ footer {
   color: #333333;
   line-height: 1.4;
 }
+
+.Events-Images {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
