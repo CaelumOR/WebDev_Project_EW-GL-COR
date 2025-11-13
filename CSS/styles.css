@@ -609,3 +609,17 @@ footer {
   height: auto;
   border-radius: 5px;
 }
+
+#GrandOpening p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+#mystery p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 20px;
+  color: #000000;
+}
