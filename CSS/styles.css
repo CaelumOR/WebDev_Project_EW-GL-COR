@@ -537,3 +537,157 @@ footer {
   color: #333333;
   line-height: 1.4;
 }
+
+/* ------------------------------------------------------ */
+/* 1200px and above – large desktops                      */
+/* ------------------------------------------------------ */
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+
+  .slideshow-container {
+    height: 350px;
+  }
+
+  #about p {
+    font-size: 1.3rem;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* 992px to 1199px – standard desktops                    */
+/* ------------------------------------------------------ */
+@media (max-width: 1199px) {
+  .car-container {
+    padding-left: calc(50vw - 400px);
+  }
+
+  .slideshow-container {
+    height: 300px;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* 768px to 991px – tablets                               */
+/* ------------------------------------------------------ */
+@media (max-width: 991px) {
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .slideshow-container {
+    height: 270px;
+  }
+
+  #about h2, #contact h2, #Brands h2 {
+    font-size: 2rem;
+  }
+
+  .car-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .car-box {
+    max-width: 90%;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* 576px to 767px – large phones                          */
+/* ------------------------------------------------------ */
+@media (max-width: 767px) {
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .slideshow-container {
+    height: 220px;
+  }
+
+  .caption {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  .car-box h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* 575px and below – small phones                         */
+/* ------------------------------------------------------ */
+@media (max-width: 575px) {
+
+  header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  .slideshow-container {
+    height: 180px;
+  }
+
+  .prev, .next {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  section {
+    padding: 50px 10px !important;
+  }
+
+  .caption {
+    display: none; /* prevents text clutter on tiny screens */
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  input, textarea {
+    font-size: 14px;
+  }
+
+  .car-container {
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .car-box {
+    width: 100%;
+    max-width: 300px;
+  }
+}
