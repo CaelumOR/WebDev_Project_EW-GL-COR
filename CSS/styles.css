@@ -691,3 +691,63 @@ footer {
     max-width: 300px;
   }
 }
+
+.SpecialEvents-page h2 {
+   color: black;
+   text-align: center;
+   font-size: 45px;
+   text-transform: uppercase;
+}
+
+.SpecialEvents-page h3 {
+   color: black;
+   text-align: center;
+   font-size: 35px;
+   text-transform: capitalize;
+}
+
+.SpecialEvents-page .GrandOpening {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  position: right;
+  color:black;
+  text-align: center;
+  margin: 20px;
+  background-color: lightgray;
+  h5 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 30px;
+  }  
+  img {
+    max-width: 200%;
+    height:auto;
+  }
+}
+
+.SpecialEvents-page .Mystery {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  position: right;
+  color:black;
+  text-align: center;
+  margin: 20px;
+  background-color: lightgray;
+  h5 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 30px;
+  }  
+  img {
+     border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 30%;
+  height: auto;
+  }
+}
