@@ -30,6 +30,17 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Your email" required />
         <label for="message">Message:</label>
+        <form action="/action_page.php">
+          <label for="cars">Choose an inquiry:</label>
+          <select name="cars" id="cars">
+            <option value="buy a car">buy a car</option>
+            <option value="sell a car">sell a car</option>
+            <option value="support">support</option>
+            <option value="feedback">feedback</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
         <textarea id="message" name="message" placeholder="Your message" required></textarea>
         <button type="submit">Send Message</button>
         <button type="reset">Reset</button>
@@ -42,4 +53,5 @@
   <script src="../JS/script.js"></script>
 </body>
 </html>
+
 
