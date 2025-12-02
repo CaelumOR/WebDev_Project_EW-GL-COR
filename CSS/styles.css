@@ -84,7 +84,7 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-#about, #contact, #Brands {
+#about, #contact {
   min-height: 100vh;
   padding: 80px 20px;
   display: flex;
@@ -216,7 +216,7 @@ nav a:hover {
 }
 
 
-#about h2, #contact h2, #Brands h2 {
+#about h2, #contact h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
   color: #D40000;
@@ -259,7 +259,7 @@ label {
   text-align: left;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"], input[type="Reason"], textarea {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
@@ -271,7 +271,7 @@ input[type="text"], input[type="email"], textarea {
   transition: all 0.3s ease;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, input[type="Reason"]:focus, textarea:focus {
   border-color: #D40000;
   box-shadow: 0 0 10px rgba(212, 0, 0, 0.5);
   outline: none;
@@ -538,9 +538,6 @@ footer {
   line-height: 1.4;
 }
 
-/* ------------------------------------------------------ */
-/* 1200px and above – large desktops                      */
-/* ------------------------------------------------------ */
 @media (min-width: 1200px) {
   header h1 {
     font-size: 3.5rem;
@@ -555,9 +552,6 @@ footer {
   }
 }
 
-/* ------------------------------------------------------ */
-/* 992px to 1199px – standard desktops                    */
-/* ------------------------------------------------------ */
 @media (max-width: 1199px) {
   .car-container {
     padding-left: calc(50vw - 400px);
@@ -568,9 +562,6 @@ footer {
   }
 }
 
-/* ------------------------------------------------------ */
-/* 768px to 991px – tablets                               */
-/* ------------------------------------------------------ */
 @media (max-width: 991px) {
 
   nav ul {
@@ -586,7 +577,7 @@ footer {
     height: 270px;
   }
 
-  #about h2, #contact h2, #Brands h2 {
+  #about h2, #contact h2 {
     font-size: 2rem;
   }
 
@@ -601,9 +592,6 @@ footer {
   }
 }
 
-/* ------------------------------------------------------ */
-/* 576px to 767px – large phones                          */
-/* ------------------------------------------------------ */
 @media (max-width: 767px) {
 
   header h1 {
@@ -641,9 +629,6 @@ footer {
   }
 }
 
-/* ------------------------------------------------------ */
-/* 575px and below – small phones                         */
-/* ------------------------------------------------------ */
 @media (max-width: 575px) {
 
   header h1 {
@@ -669,7 +654,7 @@ footer {
   }
 
   .caption {
-    display: none; /* prevents text clutter on tiny screens */
+    display: none; 
   }
 
   form {
