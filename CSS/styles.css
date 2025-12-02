@@ -538,6 +538,13 @@ footer {
   line-height: 1.4;
 }
 
+.featured-title {
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 @media (min-width: 1200px) {
   header h1 {
     font-size: 3.5rem;
