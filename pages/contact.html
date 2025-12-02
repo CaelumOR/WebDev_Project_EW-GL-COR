@@ -17,7 +17,6 @@
       <li><a href="About.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="SellingAndSourcing.html">Sell your car</a></li>
-      <li><a href="Brands.html">Brands</a></li>
       <li><a href="SpecialEvents.html">Special Events</a></li>
     </ul>
   </nav>
@@ -29,10 +28,18 @@
         <input type="text" id="name" name="name" placeholder="Your name" required />
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Your email" required />
+        <label for="Reason">Reason for inquiry?</label>
+            <select id="Reason" name="factor" required>
+                <option value="">-- Select an option --</option>
+                <option value="General">General</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Technical Support">Technical Support</option>
+            </select>
         <label for="message">Message:</label>
         <textarea id="message" name="message" placeholder="Your message" required></textarea>
         <button type="submit">Send Message</button>
         <button type="reset">Reset</button>
+        <label for="factor">What do you think most influences HDI?</label>
       </form>
     </div>
   </main>
@@ -42,6 +49,3 @@
   <script src="../JS/script.js"></script>
 </body>
 </html>
-
-
-
